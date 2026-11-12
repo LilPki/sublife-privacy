@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SubLife 支持 · Support</title>
+<meta name="description" content="SubLife 使用帮助与联系方式 / SubLife help and contact">
+<style>
+:root { --bg: #FAFAF9; --surface: #FFFFFF; --text: #141415; --muted: #6C6C70; --line: #E2E2E0; }
+@media (prefers-color-scheme: dark) {
+:root { --bg: #0A0A0B; --surface: #141416; --text: #EBEBED; --muted: #9E9EA3; --line: #28282C; }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+margin: 0; background: var(--bg); color: var(--text);
+font: 16px/1.75 -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", "Microsoft YaHei", sans-serif;
+}
+main { max-width: 720px; margin: 0 auto; padding: 48px 20px 80px; }
+h1 { font: 600 34px/1.2 ui-serif, "New York", Georgia, "Songti SC", serif; letter-spacing: -0.5px; margin: 0 0 8px; }
+h2 { font: 600 22px/1.3 ui-serif, "New York", Georgia, "Songti SC", serif; margin: 36px 0 12px; }
+h3 { font-size: 16px; margin: 20px 0 4px; }
+p { margin: 0 0 12px; }
+.meta { color: var(--muted); font-size: 14px; }
+nav { display: flex; gap: 8px; margin: 20px 0 8px; flex-wrap: wrap; }
+nav a {
+color: var(--text); text-decoration: none; font-size: 14px; padding: 6px 14px;
+border: 1px solid var(--line); border-radius: 999px; background: var(--surface);
+}
+.contact {
+background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 18px 20px; margin-top: 24px;
+}
+.contact p:last-child { margin-bottom: 0; }
+section + section { border-top: 1px solid var(--line); margin-top: 48px; padding-top: 32px; }
+a { color: inherit; }
+</style>
+</head>
+<body>
+<main>
+<h1>SubLife 支持</h1>
+<p class="meta">Support</p>
+<nav>
+<a href="#zh">中文</a>
+<a href="#en">English</a>
+<a href="./">隐私政策 Privacy Policy</a>
+</nav>
+<section id="zh" lang="zh-Hans">
+<div class="contact">
+<p><strong>联系我们</strong></p>
+<p>遇到问题、发现 bug 或有建议，请发邮件至 <a href="mailto:ruiqi7171@gmail.com">ruiqi7171@gmail.com</a>，通常会在几天内回复。</p>
+</div>
+<h2>常见问题</h2>
+<h3>我的数据保存在哪里？</h3>
+<p>所有订阅记录只保存在你的设备上，SubLife 没有账号，也没有服务器。删除 App 会同时删除这些记录。</p>
+<h3>换手机时怎么迁移数据？</h3>
+<p>在旧设备的"设置 → 导出备份"保存一个备份文件，再在新设备的"设置 → 导入备份"中选择这个文件。</p>
+<h3>为什么有的订阅没有官方图标？</h3>
+<p>图标按订阅名称自动匹配。没匹配上时，可以在编辑页点"更换图标"自己挑选，或填写官网地址后重试。</p>
+<h3>收不到续费提醒？</h3>
+<p>请确认已在"设置"中打开"续费提醒"，并在系统"设置 → 通知 → SubLife"中允许通知。提醒在续费日前的上午 9 点发出。</p>
+<h3>外币金额准确吗？</h3>
+<p>默认使用内置的近似汇率。在"设置"中点"更新汇率"可以联网获取最新汇率。</p>
+</section>
+<section id="en" lang="en">
+<div class="contact">
+<p><strong>Contact</strong></p>
+<p>For questions, bug reports, or suggestions, email <a href="mailto:ruiqi7171@gmail.com">ruiqi7171@gmail.com</a>. You'll usually hear back within a few days.</p>
+</div>
+<h2>FAQ</h2>
+<h3>Where is my data stored?</h3>
+<p>Everything stays on your device. SubLife has no accounts and no servers. Deleting the app deletes your records.</p>
+<h3>How do I move to a new phone?</h3>
+<p>On the old device, go to Settings → Export backup. On the new one, go to Settings → Import backup and pick that file.</p>
+<h3>Why don't some subscriptions have an official icon?</h3>
+<p>Icons are matched by name. If nothing matched, tap "Change icon" in the editor to pick one, or add the website and try again.</p>
+<h3>Not getting renewal reminders?</h3>
+<p>Make sure "Renewal reminders" is on in Settings, and that notifications are allowed under iOS Settings → Notifications → SubLife. Reminders arrive at 9 AM before each renewal.</p>
+<h3>Are foreign-currency amounts accurate?</h3>
+<p>Built-in approximate rates are used by default. Tap "Update exchange rates" in Settings to fetch current rates.</p>
+</section>
+</main>
+</body>
+</html>
